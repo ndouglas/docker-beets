@@ -1,2 +1,2 @@
 # docker-beets
-A simple Beets container for Docker.
+A simple Beets image for Docker.
