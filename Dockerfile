@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:latest
 MAINTAINER Nathan Douglas <docker@tenesm.us>
 ENV BEETSDIR /config
 RUN set -xe && \
