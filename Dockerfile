@@ -18,7 +18,7 @@ RUN set -xe \
   && pip install -U \
     beautifulsoup4 \
     beets \
-    discogs-client
+    discogs-client \
     pathlib \
     pyacoustid \
     pylast \
