@@ -10,6 +10,7 @@ RUN set -xe \
     imagemagick \
     lame \
     libvorbis \
+    mutagen \
     nano \
     opus \
     py-pip \
