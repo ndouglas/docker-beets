@@ -15,6 +15,7 @@ RUN set -xe \
     opus \
     py-pip \
     python \
+    xmlstarlet \
   && pip install -U pip \
   && pip install -U \
     beautifulsoup4 \
