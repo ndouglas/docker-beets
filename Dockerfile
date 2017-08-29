@@ -10,6 +10,7 @@ RUN set -xe \
     ffmpeg \
     flac \
     imagemagick \
+    jq \
     lame \
     libvorbis \
     mutagen \
