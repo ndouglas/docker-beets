@@ -3,6 +3,8 @@ MAINTAINER Nathan Douglas <docker@tenesm.us>
 ENV BEETSDIR /config
 RUN set -xe \
   && apk add --no-cache \
+    bash \
+    curl \
     faac \
     faad2 \
     ffmpeg \
