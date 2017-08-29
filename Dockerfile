@@ -24,6 +24,7 @@ RUN set -xe \
     pyacoustid \
     pylast \
     pyxdg \
-    requests 
+    requests \
+    https://github.com/hay/xml2json/zipball/master
 
 VOLUME /config /data /music
