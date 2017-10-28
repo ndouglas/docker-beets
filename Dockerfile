@@ -26,6 +26,7 @@ RUN set -xe \
     pathlib \
     pyacoustid \
     pylast \
+    https://github.com/ocelma/python-itunes/archive/master.zip \
     pyxdg \
     requests \
     https://github.com/hay/xml2json/zipball/master
