@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:edge
 MAINTAINER Nathan Douglas <docker@tenesm.us>
 ENV BEETSDIR /config
 RUN set -xe \
@@ -17,6 +17,7 @@ RUN set -xe \
     nano \
     opus \
     py-pip \
+    py-gst \
     python \
   && pip install -U pip \
   && pip install -U \
